@@ -1,0 +1,90 @@
+/*#region [Basic body] */
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(-50deg, #5828e3, #8306dc) fixed;
+  color: white;
+}
+
+/*#endregion*/
+/*#region [Variables]*/
+/*#endregion*/
+.conteiner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+.conteiner .card {
+  position: relative;
+  width: 260px;
+  height: 380px;
+  margin: 40px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  background: linear-gradient(rgba(0, 4, 57, 0.6588235294), rgba(35, 3, 77, 0.662745098));
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  border-top: 2px solid rgba(255, 0, 162, 0.2039215686);
+  border-left: 3px solid rgba(255, 0, 162, 0.2039215686);
+}
+.conteiner .card:hover .content {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.conteiner .card .content {
+  padding: 20px;
+  text-align: center;
+  transform: translateY(70px);
+  opacity: 0.03;
+  transition: 0.5s;
+}
+.conteiner .card .content h2 {
+  color: rgba(98, 63, 113, 0.3294117647);
+  position: absolute;
+  top: -80px;
+  right: 30px;
+  font-size: 8em;
+  translate: 0 2px;
+  pointer-events: none;
+}
+.conteiner .card .content h3 {
+  font-size: 1.8em;
+  z-index: 1;
+  color: yellow;
+  filter: drop-shadow(0px 0px 3px gold);
+  translate: 0 -8px;
+}
+.conteiner .card .content p {
+  font-size: 1em;
+  font-weight: 300;
+}
+.conteiner .card .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 15px;
+  background: linear-gradient(80deg, #222293, #5223a1);
+  border-radius: 60px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: bold;
+  top: 25px;
+  color: #fb28df;
+}/*# sourceMappingURL=style.css.map */

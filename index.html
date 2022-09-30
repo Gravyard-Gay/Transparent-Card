@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Transparente</title>
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+<body>
+    <div class="conteiner">
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>Transparent</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores natus obcaecati, officia qui quae ipsam quis sunt molestiae doloribus, nihil ducimus placeat non nam voluptate aut consectetur enim fugiat reiciendis!
+                </p>
+                <a href="#">More info</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Hover activated</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eveniet, debitis est nostrum iste earum ipsam vero iure officiis ab culpa alias, obcaecati repellat eaque minus cum blanditiis repellendus autem?</p>
+                <a href="#">More info</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>Text Cards</h3>
+                <p>Lorem ipsum dolor sit amet. Cum minima suscipit distinctio porro quisquam eligendi necessitatibus, excepturi eius autem corporis rem repellat hic voluptatum aspernatur fugit impedit laboriosam temporibus architecto!</p>
+                <a href="#">More info</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanila-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"),{
+            max: 15,
+            speed: 2000,
+            glare: false,
+            scale: 1.2,
+            "max-glare": 0.3
+        });
+    </script>
+</body>
+</html>
