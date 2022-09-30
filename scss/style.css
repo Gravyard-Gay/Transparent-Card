@@ -87,4 +87,10 @@ body {
   font-weight: bold;
   top: 25px;
   color: #fb28df;
+}
+
+img {
+  width: 150px;
+  border-radius: 30px;
+  translate: 0 20px;
 }/*# sourceMappingURL=style.css.map */
